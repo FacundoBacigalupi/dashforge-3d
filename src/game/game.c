@@ -232,7 +232,7 @@ void game_update(Game* g, const Input* input, float frame_dt) {
         camera_snap_to_player(&g->camera, g->player.position);
 
         /* Restart key */
-        if (input_just_pressed(input, KEY_R)) game_restart(g);
+        if (input_just_pressed(input, KEY_R)) { g->death_count++; game_restart(g); }
         if (input_just_pressed(input, KEY_ESCAPE)) g->mode = GAME_MODE_PAUSED;
         break;
     }
@@ -268,7 +268,7 @@ void game_update(Game* g, const Input* input, float frame_dt) {
         ui_update_pause_menu(&g->ui, input, &g->renderer, &resume, &restart, &main_menu, &quit);
         if (resume || input_just_pressed(input, KEY_ESCAPE))
             g->mode = GAME_MODE_PLAYING;
-        if (restart)   game_restart(g);
+        if (restart)   { g->death_count++; game_restart(g); }
         if (main_menu) g->mode = GAME_MODE_MAIN_MENU;
         if (quit)      g->should_quit = 1;
         break;
