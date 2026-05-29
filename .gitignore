@@ -1,0 +1,49 @@
+# Build output
+build/
+out/
+bin/
+*.exe
+*.dll
+*.lib
+*.a
+*.o
+*.obj
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE / editor
+.vscode/
+.vs/
+*.suo
+*.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / debug
+*.log
+*.pdb
+*.ilk
+*.exp
+
+# Assets — keep source assets, ignore generated/cached
+assets/levels/custom/
+!assets/levels/custom/.gitkeep
