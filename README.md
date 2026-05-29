@@ -2,7 +2,7 @@
 
 A 3D obstacle-runner game built in C11 with OpenGL 3.3 Core.
 
-> **Queres probarlo?** Descargá la carpeta [`dist/`](dist/) y ejecutá `dashforge3d.exe`. No requiere instalación.
+> **Want to try it?** Download the [`dist/`](dist/) folder and run `dashforge3d.exe`. No installation required.
 
 ## Features
 
