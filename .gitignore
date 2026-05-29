@@ -3,6 +3,7 @@ build/
 out/
 bin/
 *.exe
+!dist/dashforge3d.exe
 *.dll
 *.lib
 *.a

@@ -1,0 +1,146 @@
+# DashForge 3D level format v1
+level_name Extreme
+start 0 1 0
+end 82 1 0
+
+# Floor
+object block 0 0 0 1 1 1 0
+object block 1 0 0 1 1 1 0
+object block 2 0 0 1 1 1 0
+object block 3 0 0 1 1 1 0
+object block 4 0 0 1 1 1 0
+object block 5 0 0 1 1 1 0
+object block 6 0 0 1 1 1 0
+object block 7 0 0 1 1 1 0
+object block 8 0 0 1 1 1 0
+object block 9 0 0 1 1 1 0
+object block 10 0 0 1 1 1 0
+object block 11 0 0 1 1 1 0
+object block 12 0 0 1 1 1 0
+object block 13 0 0 1 1 1 0
+object block 14 0 0 1 1 1 0
+object block 15 0 0 1 1 1 0
+object block 16 0 0 1 1 1 0
+object block 17 0 0 1 1 1 0
+object block 18 0 0 1 1 1 0
+object block 19 0 0 1 1 1 0
+object block 20 0 0 1 1 1 0
+object block 21 0 0 1 1 1 0
+object block 22 0 0 1 1 1 0
+object block 23 0 0 1 1 1 0
+object block 24 0 0 1 1 1 0
+object block 25 0 0 1 1 1 0
+object block 26 0 0 1 1 1 0
+object block 27 0 0 1 1 1 0
+object block 28 0 0 1 1 1 0
+object block 29 0 0 1 1 1 0
+object block 30 0 0 1 1 1 0
+object block 31 0 0 1 1 1 0
+object block 32 0 0 1 1 1 0
+object block 33 0 0 1 1 1 0
+object block 34 0 0 1 1 1 0
+object block 35 0 0 1 1 1 0
+object block 36 0 0 1 1 1 0
+object block 37 0 0 1 1 1 0
+object block 38 0 0 1 1 1 0
+object block 39 0 0 1 1 1 0
+object block 40 0 0 1 1 1 0
+object block 41 0 0 1 1 1 0
+object block 42 0 0 1 1 1 0
+object block 43 0 0 1 1 1 0
+object block 44 0 0 1 1 1 0
+object block 45 0 0 1 1 1 0
+object block 46 0 0 1 1 1 0
+object block 47 0 0 1 1 1 0
+object block 48 0 0 1 1 1 0
+object block 49 0 0 1 1 1 0
+object block 50 0 0 1 1 1 0
+object block 51 0 0 1 1 1 0
+object block 52 0 0 1 1 1 0
+object block 53 0 0 1 1 1 0
+object block 54 0 0 1 1 1 0
+object block 55 0 0 1 1 1 0
+object block 56 0 0 1 1 1 0
+object block 57 0 0 1 1 1 0
+object block 58 0 0 1 1 1 0
+object block 59 0 0 1 1 1 0
+object block 60 0 0 1 1 1 0
+object block 61 0 0 1 1 1 0
+object block 62 0 0 1 1 1 0
+object block 63 0 0 1 1 1 0
+object block 64 0 0 1 1 1 0
+object block 65 0 0 1 1 1 0
+object block 66 0 0 1 1 1 0
+object block 67 0 0 1 1 1 0
+object block 68 0 0 1 1 1 0
+object block 69 0 0 1 1 1 0
+object block 70 0 0 1 1 1 0
+object block 71 0 0 1 1 1 0
+object block 72 0 0 1 1 1 0
+object block 73 0 0 1 1 1 0
+object block 74 0 0 1 1 1 0
+object block 75 0 0 1 1 1 0
+object block 76 0 0 1 1 1 0
+object block 77 0 0 1 1 1 0
+object block 78 0 0 1 1 1 0
+object block 79 0 0 1 1 1 0
+object block 80 0 0 1 1 1 0
+object block 81 0 0 1 1 1 0
+
+# All gaps = 4 units (very tight — requires precise chaining)
+# Triple (6 notice)
+object spike 6 1 0 1 1 1 0
+object spike 7 1 0 1 1 1 0
+object spike 8 1 0 1 1 1 0
+
+# Double (gap=4: 8+1+4=13)
+object spike 13 1 0 1 1 1 0
+object spike 14 1 0 1 1 1 0
+
+# Triple (gap=4: 14+1+4=19)
+object spike 19 1 0 1 1 1 0
+object spike 20 1 0 1 1 1 0
+object spike 21 1 0 1 1 1 0
+
+# Wall (gap=4: 21+1+4=26)
+object block 26 1 0 1 1 1 0
+
+# Triple (gap=4: 26+1+4=31)
+object spike 31 1 0 1 1 1 0
+object spike 32 1 0 1 1 1 0
+object spike 33 1 0 1 1 1 0
+
+# Double (gap=4: 33+1+4=38)
+object spike 38 1 0 1 1 1 0
+object spike 39 1 0 1 1 1 0
+
+# Triple (gap=4: 39+1+4=44)
+object spike 44 1 0 1 1 1 0
+object spike 45 1 0 1 1 1 0
+object spike 46 1 0 1 1 1 0
+
+# Triple (gap=4: 46+1+4=51)
+object spike 51 1 0 1 1 1 0
+object spike 52 1 0 1 1 1 0
+object spike 53 1 0 1 1 1 0
+
+# Wall + spike (gap=4: 53+1+4=58)
+object block 58 1 0 1 1 1 0
+object spike 59 1 0 1 1 1 0
+
+# Triple (gap=4: 59+1+4=64)
+object spike 64 1 0 1 1 1 0
+object spike 65 1 0 1 1 1 0
+object spike 66 1 0 1 1 1 0
+
+# Double (gap=4: 66+1+4=71)
+object spike 71 1 0 1 1 1 0
+object spike 72 1 0 1 1 1 0
+
+# Triple finish (gap=4: 72+1+4=77)
+object spike 77 1 0 1 1 1 0
+object spike 78 1 0 1 1 1 0
+object spike 79 1 0 1 1 1 0
+
+# End
+object end 80 1 0 1 2 1 0

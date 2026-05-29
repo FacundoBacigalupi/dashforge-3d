@@ -1,0 +1,5 @@
+name Default Cube
+mesh generated_cube
+texture
+color 0.3 0.6 1.0
+scale 1.0 1.0 1.0

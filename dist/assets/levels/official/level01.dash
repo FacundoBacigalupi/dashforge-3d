@@ -1,0 +1,71 @@
+# DashForge 3D level format v1
+level_name Tutorial
+start 0 1 0
+end 44 1 0
+
+# object <type> <x> <y> <z> <sx> <sy> <sz> <rotY>
+# Floor
+object block 0 0 0 1 1 1 0
+object block 1 0 0 1 1 1 0
+object block 2 0 0 1 1 1 0
+object block 3 0 0 1 1 1 0
+object block 4 0 0 1 1 1 0
+object block 5 0 0 1 1 1 0
+object block 6 0 0 1 1 1 0
+object block 7 0 0 1 1 1 0
+object block 8 0 0 1 1 1 0
+object block 9 0 0 1 1 1 0
+object block 10 0 0 1 1 1 0
+object block 11 0 0 1 1 1 0
+object block 12 0 0 1 1 1 0
+object block 13 0 0 1 1 1 0
+object block 14 0 0 1 1 1 0
+object block 15 0 0 1 1 1 0
+object block 16 0 0 1 1 1 0
+object block 17 0 0 1 1 1 0
+object block 18 0 0 1 1 1 0
+object block 19 0 0 1 1 1 0
+object block 20 0 0 1 1 1 0
+object block 21 0 0 1 1 1 0
+object block 22 0 0 1 1 1 0
+object block 23 0 0 1 1 1 0
+object block 24 0 0 1 1 1 0
+object block 25 0 0 1 1 1 0
+object block 26 0 0 1 1 1 0
+object block 27 0 0 1 1 1 0
+object block 28 0 0 1 1 1 0
+object block 29 0 0 1 1 1 0
+object block 30 0 0 1 1 1 0
+object block 31 0 0 1 1 1 0
+object block 32 0 0 1 1 1 0
+object block 33 0 0 1 1 1 0
+object block 34 0 0 1 1 1 0
+object block 35 0 0 1 1 1 0
+object block 36 0 0 1 1 1 0
+object block 37 0 0 1 1 1 0
+object block 38 0 0 1 1 1 0
+object block 39 0 0 1 1 1 0
+object block 40 0 0 1 1 1 0
+object block 41 0 0 1 1 1 0
+object block 42 0 0 1 1 1 0
+object block 43 0 0 1 1 1 0
+
+# Obstacle 1: single spike (easy intro)
+object spike 8 1 0 1 1 1 0
+
+# Obstacle 2: two spikes side by side (a bit harder)
+object spike 16 1 0 1 1 1 0
+object spike 17 1 0 1 1 1 0
+
+# Obstacle 3: single spike after gap
+object spike 25 1 0 1 1 1 0
+
+# Obstacle 4: low wall to jump over
+object block 32 1 0 1 1 1 0
+
+# Obstacle 5: final two spikes
+object spike 37 1 0 1 1 1 0
+object spike 38 1 0 1 1 1 0
+
+# End marker
+object end 42 1 0 1 2 1 0

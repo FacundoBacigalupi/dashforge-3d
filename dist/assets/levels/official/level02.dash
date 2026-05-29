@@ -1,0 +1,90 @@
+# DashForge 3D level format v1
+level_name Easy
+start 0 1 0
+end 61 1 0
+
+# Floor
+object block 0 0 0 1 1 1 0
+object block 1 0 0 1 1 1 0
+object block 2 0 0 1 1 1 0
+object block 3 0 0 1 1 1 0
+object block 4 0 0 1 1 1 0
+object block 5 0 0 1 1 1 0
+object block 6 0 0 1 1 1 0
+object block 7 0 0 1 1 1 0
+object block 8 0 0 1 1 1 0
+object block 9 0 0 1 1 1 0
+object block 10 0 0 1 1 1 0
+object block 11 0 0 1 1 1 0
+object block 12 0 0 1 1 1 0
+object block 13 0 0 1 1 1 0
+object block 14 0 0 1 1 1 0
+object block 15 0 0 1 1 1 0
+object block 16 0 0 1 1 1 0
+object block 17 0 0 1 1 1 0
+object block 18 0 0 1 1 1 0
+object block 19 0 0 1 1 1 0
+object block 20 0 0 1 1 1 0
+object block 21 0 0 1 1 1 0
+object block 22 0 0 1 1 1 0
+object block 23 0 0 1 1 1 0
+object block 24 0 0 1 1 1 0
+object block 25 0 0 1 1 1 0
+object block 26 0 0 1 1 1 0
+object block 27 0 0 1 1 1 0
+object block 28 0 0 1 1 1 0
+object block 29 0 0 1 1 1 0
+object block 30 0 0 1 1 1 0
+object block 31 0 0 1 1 1 0
+object block 32 0 0 1 1 1 0
+object block 33 0 0 1 1 1 0
+object block 34 0 0 1 1 1 0
+object block 35 0 0 1 1 1 0
+object block 36 0 0 1 1 1 0
+object block 37 0 0 1 1 1 0
+object block 38 0 0 1 1 1 0
+object block 39 0 0 1 1 1 0
+object block 40 0 0 1 1 1 0
+object block 41 0 0 1 1 1 0
+object block 42 0 0 1 1 1 0
+object block 43 0 0 1 1 1 0
+object block 44 0 0 1 1 1 0
+object block 45 0 0 1 1 1 0
+object block 46 0 0 1 1 1 0
+object block 47 0 0 1 1 1 0
+object block 48 0 0 1 1 1 0
+object block 49 0 0 1 1 1 0
+object block 50 0 0 1 1 1 0
+object block 51 0 0 1 1 1 0
+object block 52 0 0 1 1 1 0
+object block 53 0 0 1 1 1 0
+object block 54 0 0 1 1 1 0
+object block 55 0 0 1 1 1 0
+object block 56 0 0 1 1 1 0
+object block 57 0 0 1 1 1 0
+object block 58 0 0 1 1 1 0
+object block 59 0 0 1 1 1 0
+object block 60 0 0 1 1 1 0
+
+# Single — warm up (10 units notice)
+object spike 10 1 0 1 1 1 0
+
+# Single (gap=8)
+object spike 19 1 0 1 1 1 0
+
+# Double (gap=8)
+object spike 28 1 0 1 1 1 0
+object spike 29 1 0 1 1 1 0
+
+# Single (gap=8)
+object spike 38 1 0 1 1 1 0
+
+# Wall to jump over (gap=7)
+object block 46 1 0 1 1 1 0
+
+# Double (gap=7)
+object spike 54 1 0 1 1 1 0
+object spike 55 1 0 1 1 1 0
+
+# End
+object end 58 1 0 1 2 1 0
